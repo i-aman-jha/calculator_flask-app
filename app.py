@@ -19,5 +19,5 @@ def evaluate():
         return jsonify({'error': str(e)}), 400
 
 if __name__ == "__main__":
-    app.run(host='192.168.29.92', port=5000, debug=True)
+    app.run(debug=True)
 
