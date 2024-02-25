@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def Calculator():
-    return "This is a flask app fro calculation. Get anser of query by typing expression in url for example \n |https://calculator-flask-app-wvii.onrender.com/evaluate?query=<your expression>|"
+    return "This is a flask app for calculation. Get answer of query by typing expression in url for example |https://calculator-flask-app-wvii.onrender.com/evaluate?query=your expression|"
 
 @app.route('/evaluate', methods=['GET'])
 def evaluate():
