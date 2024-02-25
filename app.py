@@ -1,24 +1,4 @@
 
-# app = Flask(__name__)
-
-# def evaluate_expression(expression):
-#     try:
-#         result = eval(expression)
-#         return str(result)
-#     except Exception as e:
-#         return f"Error: {str(e)}"
-
-# @app.route('/evaluate', methods=['POST'])
-# def evaluate():
-#     data = request.json
-#     expression = data.get('expression')
-#     if expression is None:
-#         return jsonify({'error': 'Expression not provided'}), 400
-#     result = evaluate_expression(expression)
-#     return jsonify({'result': result})
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
 from flask import Flask, request, jsonify
 
 
